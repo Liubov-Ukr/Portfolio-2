@@ -5,6 +5,7 @@ font-family: 'Poppins', sans-serif;*/
   --defolt-font: "Poppins", sans-serif;
   --h-font: "Playfair Display", serif;
   --color-button: #6c63ff;
+  --color-defolt: #272142;
 }
 
 h1,
@@ -17,7 +18,7 @@ h3 {
   font-size: 60px;
 }
 p {
-  color: #272142;
+  color: var(--color-defolt);
 }
 
 h1 {
@@ -25,22 +26,20 @@ h1 {
   font-weight: 700;
 }
 .hi {
-  color: #272142;
+  color: var(--color-defolt);
   font-size: 36px;
   font-weight: 700;
-  margin-top: 100px;
 }
 .hero {
   text-align: center;
   background-color: var(--primary-color);
   font-family: var(--defolt-font);
- 
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-.hello{
-    padding: 136px;
-}
+
 .hero p {
-  color: #272142;
+  color: var(--color-defolt);
   font-size: 24px;
   font-weight: 400;
   margin: 55px 40px;
@@ -49,11 +48,11 @@ h1 {
 .hero h2 {
   font-size: 24px;
   font-weight: 400;
-  color: #272142;
+  color: var(--color-defolt);
   margin-top: 48px;
 }
-.bestPprojects{
-    font-size: 18px;
+.bestPprojects {
+  font-size: 18px;
 }
 .contactMe {
   background-color: var(--color-button);
@@ -79,53 +78,79 @@ h1 {
   margin: 30px auto;
   font-size: 16px;
 }
-.workInquiry{
-   background-color: #F9F7FE;
-   margin: 65px auto;
-   border-radius: 20px;
-   
+.workInquiry {
+  background-color: #f9f7fe;
+  margin: 65px auto;
+  border-radius: 20px;
 }
-.workInquiry h4{
-    padding-top: 49px;
-    padding-left: 119px;
-    font-size: 40px;
+.workInquiry h4 {
+  padding-top: 49px;
+  padding-left: 119px;
+  font-size: 40px;
 }
-.workInquiry p{
-    font-size: 21px;
-    padding-left: 119px;
-    padding-bottom: 42px;
-    opacity: 70%;
+.workInquiry p {
+  font-size: 21px;
+  padding-left: 119px;
+  padding-bottom: 42px;
+  opacity: 70%;
 }
-.workInquiry .contactMe{
-    margin-top: 71px;
+.workInquiry .contactMe {
+  margin-top: 71px;
 }
 
-.email-link{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color:black;
-    font-weight: 500;
-    font-size: 24px;
-    padding-top: 123px;
+.email-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  padding-top: 123px;
 }
-@media (max-width: 700px) {
+.social {
+  text-align: center;
+  color: var(--color-button);
+  display: block;
+  margin: 0 auto;
+}
+.fa-brands {
+  text-decoration: none;
+  padding: 20px;
+  font-size: 18px;
+}
+@media (max-width: 1024px) {
   h1 {
-    font-size: 45px;
+    font-size: 40px;
     line-height: 1.5;
   }
-  h3{
+  h3 {
     font-size: 36px;
-   
   }
-    .hello p{
-        margin: 30px 40px;
-    }
-  .hello {
+  .hero p {
+    margin: 30px 40px;
+  }
+  .hero {
     padding-top: 100px;
-    
+    padding-bottom: 60px;
   }
   .project {
     padding: 30px 30px;
     text-align: center;
+  }
+  .contactMe {
+    margin-bottom: 70px;
+  }
+  .workInquiry h4 {
+    padding: 30px 29px;
+    text-align: center;
+  }
+  .workInquiry p {
+    padding: 0 29px;
+    text-align: center;
+  }
+  .workInquiry .contactMe {
+    text-align: center;
+    margin: 30px auto;
+    display: block;
+  }
 }
