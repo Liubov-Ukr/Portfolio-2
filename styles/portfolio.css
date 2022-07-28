@@ -152,6 +152,10 @@ h1 {
   font-size: 14px;
   opacity: 70%;
 }
+.contact h1 {
+  font-size: 64px;
+  margin: 100px auto 119px auto;
+}
 @media (max-width: 1024px) {
   h1 {
     font-size: 40px;
