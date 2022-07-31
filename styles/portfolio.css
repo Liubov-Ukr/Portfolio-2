@@ -25,7 +25,7 @@ h1 {
   font-size: 84px;
   font-weight: 700;
 }
-.navbar-menu {
+.navbar-hom {
   margin-top: 31px;
 }
 .navbar-home {
@@ -55,7 +55,7 @@ h1 {
   text-align: center;
   background-color: var(--primary-color);
   font-family: var(--defolt-font);
-  padding-top: 100px;
+  padding-top: 40px;
   padding-bottom: 100px;
 }
 
@@ -180,7 +180,7 @@ h1 {
 .fa-brands {
   background-color: var(--primary-color);
   border-radius: 50%;
-  margin: 0px 20px 133px 20px;
+  margin: 0 20px 133px 20px;
   padding: 20px;
   font-size: 21px;
 }
@@ -196,12 +196,21 @@ h1 {
   h3 {
     font-size: 36px;
   }
+  .navbar-home {
+    padding: 51px 26px;
+  }
+  .navbar-hom {
+    padding: 34px 25px;
+  }
+  .content-container {
+    margin: 0;
+  }
   .hero p {
     margin: 30px 40px;
   }
   .hero {
-    padding-top: 100px;
-    padding-bottom: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .project {
     padding: 30px 30px;
@@ -225,6 +234,22 @@ h1 {
   }
   .work h1 {
     width: 100%;
-    font-size: 38px;
+    font-size: 34px;
+    text-align: center;
+  }
+  .content-container h1 {
+    font-size: 46px;
+    text-align: center;
+  }
+  .content-container {
+    text-align: center;
+  }
+  .content-container img {
+    margin: 0;
+  }
+  .contact h1 {
+    font-size: 59px;
+    margin: 0;
+    text-align: center;
   }
 }
